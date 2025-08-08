@@ -5,7 +5,7 @@ import CarCard from "./CarCard"
 import { useNavigate } from "react-router-dom"
 const FeaturedSection =()=>{
 
-    const navigate = useNavigate
+    const navigate = useNavigate()
     return (
         <div className="flex flex-col items-center py-24 px-6 md:px-16
         lg:px-24 xl:px-32">
