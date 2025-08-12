@@ -29,14 +29,10 @@ const testimonials = [
             <Title  title="What our Customers Say" subTitle="Discover why discerning travelers choose StayVenture for their luxury accommodation around the world." />
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-18">
- 
                 {testimonials.map((testimonial,index) => (
-
                     <div key={index} className="bg-white p-6 rounded-xl shadow max-w-lg 
                     hover:translate-y-1 transition-all duration-500">
-
                         <div className="flex items-center gap-3">
-
                             <img className="w-12 h-12 rounded-full"
                              src={testimonial.image} alt={testimonial.name} />
                             <div>
